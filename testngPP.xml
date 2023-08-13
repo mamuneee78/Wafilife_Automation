@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestNG_WafiSuit">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="practical.project.tests.LoginTestPP"/>
+      <class name="practical.project.tests.BookingTestPP"/>
+      <class name="practical.project.tests.OrderTestPP"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- TestNG_WafiSuit -->
+
+
